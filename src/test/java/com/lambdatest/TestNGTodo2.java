@@ -10,7 +10,7 @@ import java.util.HashMap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -62,7 +62,7 @@ public class TestNGTodo2 {
         String username = "ruifisilva";
         String accessKey = "ISD6Xf1p1CF4qXiciA6FpEiyWzFQn0VRlRzdZu337GdGKujtGQ";
 
-        ChromeOptions browserOptions = new ChromeOptions();
+        EdgeOptions browserOptions = new EdgeOptions();
         browserOptions.setPlatformName("macOS Sierra");
         browserOptions.setBrowserVersion("87.0");
         HashMap<String, Object> ltOptions = new HashMap<String, Object>();
